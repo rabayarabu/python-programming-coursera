@@ -10,7 +10,7 @@ y = 5 # assignment statement
 sum = x + y # assignment with expression
 comparison = x - y # assignment with expression
 result = x * y # assignment with expression
-divided = int(x / y) # assignment with expression
+divided = int(x / y) # assignment with expression/integer division produces floating point result
 mod = x % y # assignment with expression
 
 print(sum) # print statement - addition
