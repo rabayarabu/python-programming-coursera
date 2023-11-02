@@ -11,8 +11,13 @@ hours = input("Enter hours worked: ")
 rate = input("Enter hourly rate: ")
 
 # Convert the input to floating-point numbers
-hours = float(hours)
-rate = float(rate)
+
+try:
+    hours = float(hours)
+    rate = float(rate)
+except:
+    print("error")
+    quit()
 
 # Calculate gross pay
 if hours <= 40:
