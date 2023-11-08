@@ -7,8 +7,15 @@
 # using definite for loop is much more elegant
 # iteration varriables are taken care of by for loop
 
-name = "Rabu"
-for letter in name:
-    print(letter)
+# name = "Rabu"
+# for letter in name:
+#     print(letter)
 
 # coursera / python data structure/ start with strings / chapter 6
+
+name = "Rabaya"
+count = 0
+for letter in name:
+    if letter == 'a':
+        count = count + 1
+print(count)
