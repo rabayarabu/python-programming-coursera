@@ -27,3 +27,7 @@ print(thing)
 
 # When you do not specify delimiter, multiple spaces are treated as one delimiter.
 # You can specify what delimiter character to use in the spliting().
+
+line = "Once upon a time there were 100's of kings in this world!"
+words = line.split()
+print(words)
